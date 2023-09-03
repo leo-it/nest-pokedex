@@ -22,3 +22,7 @@ docker-compose up -d
 
 *MongoDB
 *Nest
+
+## Instalaciones recomendadas para el curso
+
+*https://gist.github.com/Klerith/c0ef4f48d986e2cf3308bb54fff84ea5
