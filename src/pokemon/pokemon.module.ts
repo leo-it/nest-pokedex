@@ -16,5 +16,6 @@ import { PokemonService } from './pokemon.service';
       },
     ]),
   ],
+  exports: [MongooseModule],
 })
 export class PokemonModule {}
