@@ -7,23 +7,38 @@
 1.Clonar el repositorio
 
 2. Ejecutar
+
 ```
 yarn install
 ```
+
 3. Tener Nest CLI instalado
+
 ```
 npm i -g @nestjs/cli
 ```
+
 4. Levantar la base de datos
+
 ```
 docker-compose up -d
 ```
 
-4. Reconstruir la base de datos con la Seed 
+5. clonar eel archivo **.env.template** y renombrar la copia a **.env**
+
+6. llenar las variables de entorno definidas `env`
+
+7.ejecutar la aplicacion en dev:
+
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos con la Seed
+
 ```
 http://localhost:3000/api/v2/seed
 ```
-
 
 ##Stack usado
 
@@ -32,4 +47,4 @@ http://localhost:3000/api/v2/seed
 
 ## Instalaciones recomendadas para el curso
 
-*https://gist.github.com/Klerith/c0ef4f48d986e2cf3308bb54fff84ea5
+\*https://gist.github.com/Klerith/c0ef4f48d986e2cf3308bb54fff84ea5
